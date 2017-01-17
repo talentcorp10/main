@@ -1,13 +1,13 @@
 jQuery(document).ready(function() {
-	jQuery('#menu-header ul li').hover(function() {
+	jQuery('#menu-header ul likkkkkkkk').hover(function() {
 		var hovered = jQuery(this).index();
 		previous = hovered - 1;
-		if (previous >= 0) {
+		if (previous >= 0) {   
 			var sibling = jQuery('#menu-header li:first-child').prev().eq(previous);
 			sibling.addClass('border-gone');
 		}
 	});
-	jQuery('#menu-header ul li').mouseleave(function() {
+	jQuery('#menu-header ul li a').mouseleave(function() {
 		var hovered = jQuery(this).index();
 		previous = hovered - 1;
 		if (previous >= 0) {
