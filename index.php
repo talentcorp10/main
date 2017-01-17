@@ -1,5 +1,5 @@
 <?php
-$value='10000';
+$value='1111';
 $bad_symbols = array(",", " ");
 $value = str_replace($bad_symbols, "", $value);
 
